@@ -12,7 +12,7 @@ document.addEventListener("click", function (e) {
   const memeModalEL = e.target.closest("#meme-modal");
 
   if (memeModal.style.display === "flex" && memeModalEL === null) {
-    memeModal.style.display = "none";
+    //memeModal.style.display = "none";
   }
 });
 
